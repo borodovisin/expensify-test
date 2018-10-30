@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseForm correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render error for invalid form submission 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+  </form>
+</div>
+`;
+
+exports[`should render error for invalid form submission 2`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoFocus={true}
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <textarea
+      onChange={[Function]}
+      placeholder="Add a note for your expense (optional)"
+      value=""
+    />
+    <button>
+      Add Expense
+    </button>
+    <p>
+      Description and amount are mandatory fields
+    </p>
+  </form>
+</div>
+`;
